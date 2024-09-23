@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel = "false">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.Loginpage"/>
+      <class name="test.MenuBar"/>
+      <class name="test.Filterbutton"/>
+      <class name="test.Productpage"/>
+      <class name="test.Cart"/>
+      <class name="test.Checkoutpage"/>
+      <class name="test.Logout"/>
+           
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

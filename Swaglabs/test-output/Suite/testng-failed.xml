@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.Filterbutton">
+        <methods>
+          <include name="CLOSE"/>
+          <include name="Login"/>
+          <include name="FilterButton"/>
+        </methods>
+      </class> <!-- test.Filterbutton -->
+      <class name="test.MenuBar">
+        <methods>
+          <include name="CLOSE"/>
+          <include name="Swaglabs"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- test.MenuBar -->
+      <class name="test.Loginpage">
+        <methods>
+          <include name="Login"/>
+          <include name="logo"/>
+          <include name="CLOSE"/>
+          <include name="Rightlogin"/>
+          <include name="wronglogin"/>
+        </methods>
+      </class> <!-- test.Loginpage -->
+      <class name="test.Logout">
+        <methods>
+          <include name="CLOSE"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- test.Logout -->
+      <class name="test.Productpage">
+        <methods>
+          <include name="Loginlink"/>
+          <include name="productdetails"/>
+          <include name="logincredentials"/>
+          <include name="CLOSE"/>
+        </methods>
+      </class> <!-- test.Productpage -->
+      <class name="test.Cart">
+        <methods>
+          <include name="Login"/>
+          <include name="cart"/>
+          <include name="Rightlogin"/>
+          <include name="CLOSE"/>
+        </methods>
+      </class> <!-- test.Cart -->
+      <class name="test.Checkoutpage">
+        <methods>
+          <include name="Login"/>
+          <include name="checkout"/>
+          <include name="CLOSE"/>
+        </methods>
+      </class> <!-- test.Checkoutpage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
